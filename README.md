@@ -30,4 +30,6 @@ tee -a ~/.zshrc > /dev/null << "EOF"
 tee -a ~/.dotfiles/.my-zsh/aliases.zsh > /dev/null << "EOF"
 alias wosind='docker run -it --rm wosind:local bash'
 EOF
+
+source ~/.zshrc
 ```
