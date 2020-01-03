@@ -21,3 +21,11 @@ docker run -it --rm wosind:local
 --- start the bash
 docker run -it --rm wosind:local bash
 ```
+
+## zsh or bash alias
+
+```
+tee -a ~/.zshrc > /dev/null << "EOF"
+alias wosind='docker run -it --rm wosind:local bash'
+EOF
+```
