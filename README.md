@@ -7,7 +7,7 @@ this is the dockerfile for the project: https://github.com/whitelisthackers/wosi
 ```
 --- optional
 mkdir /opt/docker && cd /opt/docker
-git clone https://github.com/easysdev/wosind-docker.git /opt/docker/wosind
+git clone https://github.com/andreaseu/wosind-docker.git /opt/docker/wosind
 cd /opt/docker/wosind
 ---
 
